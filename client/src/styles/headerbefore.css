@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .inscription-a {
+    text-decoration: none;
+    color: #016a70;
+    margin: 0px 10px;
+    transition: color 0.3s ease;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+  .inscription-a:hover {
+    color: #062627;
+  }
+  .connexion-a {
+      background-color: #016a70;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      text-decoration: none;
+      font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+  }
+  .connexion-a:hover {
+    background-color: #062627;
+  }

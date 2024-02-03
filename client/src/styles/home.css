@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+.home-container {
+    margin: 0;
+    padding: 0;
+    background-color: #dcf0c5; /* Fond de couleur vert clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+.main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.learn-more-btn {
+    background-color: #016a70;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.learn-more-btn:hover {
+  background-color: #062627;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Ajuste l'opacité selon ton préférence */
+  width: 100%;
+  height: 700px; /* Ajuste la hauteur selon ton préférence */
+}
+
+/* Ajout de styles pour le bouton "En savoir plus" */
+.main-content .learn-more-btn {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Ajout de styles pour le texte descriptif */
+.main-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555; /* Change la couleur du texte selon ton thème */
+}

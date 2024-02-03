@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+.header {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  .nav-link text{
+    color: #016A70; 
+    font-family: 'Kanit', sans-serif; 
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 20px; /* Taille de la police des liens */
+    transition: color 0.3s ease-in-out; /* Ajoute une transition de couleur en douceur */
+  }
+  
+  .nav-link:hover {
+    color: #004e52; /* Changement de couleur au survol */
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    background-color: #ffffff; /* Couleur de fond du bouton de déconnexion */
+    color: #016A70; /* Couleur du texte du bouton de déconnexion */
+    padding: 8px 15px; /* Ajoutez un peu plus de padding pour un look plus propre */
+    font-family: 'Kanit', sans-serif; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #016A70;
+    transition: background-color 0.3s ease-in-out; /* Ajoute une transition de couleur de fond en douceur */
+  }
+  
+  .logout-button:hover {
+    background-color: #016A70; /* Changement de couleur de fond au survol */
+    color: #ffffff;
+    border: 1px solid #016A70;
+  }
+  

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+.page-container-create {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #016A70;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.page-container-create form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.page-container-create label {
+  width: 31%;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 50px;
+  color: #016A70;
+}
+
+.page-container-create input,
+.page-container-create select {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #016A70;
+  border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-form {
+    background-color: #016A70;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button-form:hover {
+    background-color: #014E53;
+  }
+  
+  /* Ajoute une marge à tous les boutons sauf le dernier */
+  .page-container-create button:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .Remarque {
+    color: red;
+    margin-bottom: 10px; /* Ajoutez une marge en bas (ajustez selon vos besoins) */
+   }
+  

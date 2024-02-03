@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+h2 {
+    color: #000000; 
+    font-family: 'Kanit', sans-serif; 
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 15px; /* Taille de la police des liens */
+    transition: color 0.3s ease-in-out; /* Ajoute une transition de couleur en douceur */
+  }
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+  .page-container {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+    }
+
+    .buttons-detail button {
+        margin: 5px;
+        background-color: #ffffff;
+        color: #016A70;
+        border: 1px solid #016A70;
+        border-radius: 5px;
+        padding: 8px;
+        cursor: pointer;
+        font-family: 'Manrope', sans-serif;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      }
+      
+      .buttons-detail button:hover {
+        background-color: #016A70;
+        color: #ffffff;
+      }
+      
+      .details-table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        display: table;
+      }
+      
+      .details-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      
+      .titre {
+        background-color: #ffffff;
+        color: #016A70;
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+      }
+      .info {
+        font-family: 'Manrope', sans-serif;
+      }
+      

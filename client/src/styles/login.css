@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+.page-login-body {
+    margin: 0;
+    padding: 0;
+    background-color: #dcf0c5; /* Fond de couleur vert clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container-login {
+    text-align: center;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Utilise auto pour centrer horizontalement */
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .title-login {
+    color: #016a70;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .button-login {
+    background-color: #016a70;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Ajoutez une marge en bas (ajustez selon vos besoins) */
+  }
+  .button-login:hover {
+    background-color: #062627;
+  }
+  
+  .forgot-password-link {
+    color: #016a70;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .forgot-password-link:hover {
+    color: #062627;
+  }
+
+  .inscription-link {
+    color: #016a70;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .inscription-link:hover {
+    color: #062627;
+  }
+
+  .Remarque {
+    color: red;
+    margin-bottom: 10px; /* Ajoutez une marge en bas (ajustez selon vos besoins) */
+   }
+.main-content {
+    width: 50%; /* Définis la largeur à 50% */
+    padding: 20px;
+    text-align: center;
+  }
+  
+.main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555; /* Change la couleur du texte selon ton thème */
+  }
+  .main-content img {
+    border-radius: 10px; /* Ajuste le rayon selon ton choix */
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur du conteneur */
+  }
+
+   .learn-more-btn {
+    background-color: #016a70;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.learn-more-btn:hover {
+  background-color: #062627;
+}
+
+
+  
+  

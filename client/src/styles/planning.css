@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+h2 {
+    color: #016A70;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease-in-out;
+  }
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+.page-container-planning {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .search-filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-filters input,
+  .search-filters select {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #016A70;
+    border: 1px solid #016A70;
+    padding: 8px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-form {
+    background-color: #016A70;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button-form:hover {
+    background-color: #014E53;
+  }
+  
+  /* Ajoute une marge à tous les boutons sauf le dernier */
+  .page-container-planning button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
